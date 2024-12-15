@@ -22,7 +22,7 @@ public class HelloController {
 	}
 	
 	@GetMapping("/")
-	public String greet(HttpServletRequest request) {
-		return "Hello world " + request.getSession();
-	}
+    public String helloWorld() {
+        return "Hello, World!";
+    }
 }

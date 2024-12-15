@@ -22,7 +22,7 @@ public class HelloController {
 	}
 	
 	@GetMapping("/")
-    public String helloWorld() {
+    public String helloWorld(HttpServletRequest request) {
         return "Hello, World!";
     }
 }
